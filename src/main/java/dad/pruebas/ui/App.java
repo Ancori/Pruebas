@@ -10,13 +10,13 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 
-	private ViewController controller;
+	private MenuController controller;
 	private static Stage primaryStage;
 
 	public void start(Stage primaryStage) throws Exception {
 
 		App.primaryStage = primaryStage;
-		controller = new ViewController();
+		controller = new MenuController();
 		Scene scene = new Scene(controller.getView());
 		primaryStage.setTitle("Pruebas");
 		primaryStage.setFullScreen(true);

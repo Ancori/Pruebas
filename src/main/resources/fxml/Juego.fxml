@@ -9,7 +9,7 @@
    <children>
       <Label fx:id="pokemon" contentDisplay="GRAPHIC_ONLY" layoutX="143.0" layoutY="87.0" text="Label">
          <graphic>
-            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="137.0" fitWidth="129.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/Pikachu.png" />
                </image>
