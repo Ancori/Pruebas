@@ -5,6 +5,7 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
@@ -35,6 +36,11 @@
             </HBox>
             <HBox prefHeight="443.0" prefWidth="1900.0">
                <children>
+                  <ImageView fitHeight="30.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/bola.gif" />
+                     </image>
+                  </ImageView>
                   <ComboBox fx:id="comboPokemon" prefHeight="25.0" prefWidth="152.0" />
                   <ImageView fx:id="pokemon1" fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
                      <HBox.margin>
@@ -51,8 +57,11 @@
                      <children>
                         <HBox spacing="5.0">
                            <children>
-                              <Button fx:id="ataque1" alignment="CENTER" mnemonicParsing="false" onAction="#onataque1" prefHeight="100.0" prefWidth="200.0" text="Button" />
-                              <Button fx:id="ataque2" mnemonicParsing="false" onAction="#onataque2" prefHeight="100.0" prefWidth="200.0" text="Button" />
+                              <Button fx:id="ataque1" alignment="CENTER" mnemonicParsing="false" onAction="#onataque1" prefHeight="100.0" prefWidth="200.0" text="Button" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font></Button>
+                              <Button fx:id="ataque2" alignment="CENTER" mnemonicParsing="false" onAction="#onataque2" prefHeight="100.0" prefWidth="200.0" text="Button" textAlignment="CENTER" />
                            </children>
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -60,8 +69,8 @@
                         </HBox>
                         <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
                            <children>
-                              <Button fx:id="ataque3" mnemonicParsing="false" onAction="#onataque3" prefHeight="100.0" prefWidth="200.0" text="Button" />
-                              <Button fx:id="ataque4" mnemonicParsing="false" onAction="#onataque4" prefHeight="100.0" prefWidth="200.0" text="Button" />
+                              <Button fx:id="ataque3" alignment="CENTER" mnemonicParsing="false" onAction="#onataque3" prefHeight="100.0" prefWidth="200.0" text="Button" textAlignment="CENTER" />
+                              <Button fx:id="ataque4" alignment="CENTER" mnemonicParsing="false" onAction="#onataque4" prefHeight="100.0" prefWidth="200.0" text="Button" textAlignment="CENTER" />
                            </children>
                            <VBox.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

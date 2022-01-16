@@ -21,7 +21,7 @@ public class App extends Application {
 		controller = new JuegoController();
 		Scene scene = new Scene(controller.getView());
 		primaryStage.setTitle("Pruebas");
-		primaryStage.setFullScreen(false);
+		primaryStage.setFullScreen(true);
 		primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 		primaryStage.setScene(scene);
 		primaryStage.show();

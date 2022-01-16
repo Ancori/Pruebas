@@ -116,8 +116,8 @@ public class JuegoController implements Initializable {
 	private void onhayganador(ObservableValue<? extends Boolean> o, Boolean ov, Boolean nv) {
 		if (ganador.get() == true)
 			if (App.confirm("Informacion de combate", "El combate ha finalizado", "¿Desea Continuar?")) {
-				iniciarCombate();
 				ganador.set(false);
+				iniciarCombate();
 			} else {
 				System.exit(0);
 			}
