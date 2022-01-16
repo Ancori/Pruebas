@@ -31,13 +31,13 @@ public class MenuController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		view.setStyle("-fx-background-image:url('file:src/main/resources/images/fondo.gif');-fx-background-size: 100% 100%");
+	
 
 	}
 
 	@FXML
 	void onjugarbutton(ActionEvent event) {
-      view.setCenter(juego.getView());
+	 view.setCenter(juego.getView());
 	}
 
 	@FXML

@@ -3,27 +3,35 @@ package dad.pruebas.ui;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
 import javafx.scene.input.KeyCombination;
-import javafx.scene.control.Alert.AlertType;
+
 import javafx.stage.Stage;
 
 public class App extends Application {
 
-	private MenuController controller;
+	private JuegoController controller;
 	private static Stage primaryStage;
+	private static HiloMusic hiloMusic;
 
 	public void start(Stage primaryStage) throws Exception {
 
 		App.primaryStage = primaryStage;
-		controller = new MenuController();
+		controller = new JuegoController();
 		Scene scene = new Scene(controller.getView());
 		primaryStage.setTitle("Pruebas");
-		primaryStage.setFullScreen(true);
+		primaryStage.setFullScreen(false);
 		primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 		primaryStage.setScene(scene);
 		primaryStage.show();
+		
+		//playMusic("sonidobatalla");
+	}
 
+	public static void playMusic(String file) {
+		hiloMusic = new HiloMusic(file);
+		hiloMusic.run();
 	}
 
 	public static void main(String[] args) {

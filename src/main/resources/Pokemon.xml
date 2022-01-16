@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListaPokemon>
+	<Pokemon nombre="Pikachu" nivel="50" tipo="ELECTRICO">
+		<Ataques>
+			<Ataque poder="40" precision="70" tipo="ELECTRICO">Impactrueno
+			</Ataque>
+			<Ataque poder="80" precision="55" tipo="NORMAL">Atizar
+			</Ataque>
+			<Ataque poder="90" precision="70" tipo="ELECTRICO">Voltio cruel
+			</Ataque>
+			<Ataque poder="110" precision="50" tipo="ELECTRICO">Trueno
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Charmander" nivel="50" tipo="FUEGO">
+		<Ataques>
+			<Ataque poder="60" precision="70" tipo="VOLADOR">Ataque Ala
+			</Ataque>
+			<Ataque poder="100" precision="40" tipo="LUCHA">Puño dinamico
+			</Ataque>
+			<Ataque poder="60" precision="70" tipo="SINIESTRO">Mordisco
+			</Ataque>
+			<Ataque poder="60" precision="75" tipo="DRAGON">Cola dragón
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Abra" nivel="50" tipo="PSIQUICO">
+		<Ataques>
+			<Ataque poder="70" precision="70" tipo="NORMAL">Puño Cabeza
+			</Ataque>
+			<Ataque poder="75" precision="68" tipo="FUEGO">Puño fuego
+			</Ataque>
+			<Ataque poder="80" precision="70" tipo="PSIQUICO">Cabezazo Zen
+			</Ataque>
+			<Ataque poder="95" precision="70" tipo="SINIESTRO">Juego Sucio
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Bulbasaur" nivel="50" tipo="VENENO">
+		<Ataques>
+			<Ataque poder="50" precision="90" tipo="NORMAL">Corte
+			</Ataque>
+			<Ataque poder="120" precision="40" tipo="PLANTA">Latigo Cepa
+			</Ataque>
+			<Ataque poder="56" precision="70" tipo="VENENO">Bomba Lodo
+			</Ataque>
+			<Ataque poder="80" precision="75" tipo="VENENO">Carga Tóxica
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Squirtle" nivel="50" tipo="AGUA">
+		<Ataques>
+			<Ataque poder="40" precision="90" tipo="NORMAL">Placaje
+			</Ataque>
+			<Ataque poder="100" precision="50" tipo="LUCHA">Puño dinamico
+			</Ataque>
+			<Ataque poder="80" precision="70" tipo="AGUA">Cascada
+			</Ataque>
+			<Ataque poder="90" precision="75" tipo="AGUA">Hidrobomba
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Eevee" nivel="50" tipo="NORMAL">
+		<Ataques>
+			<Ataque poder="40" precision="80" tipo="NORMAL">Represalia
+			</Ataque>
+			<Ataque poder="100" precision="60" tipo="TIERRA">Excavar
+			</Ataque>
+			<Ataque poder="85" precision="65" tipo="NORMAL">Bola Sombra
+			</Ataque>
+			<Ataque poder="35" precision="90" tipo="FANTASMA">Encanto
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Cyndaquil" nivel="50" tipo="FUEGO">
+		<Ataques>
+			<Ataque poder="50" precision="75" tipo="LUCHA">Doble patada
+			</Ataque>
+			<Ataque poder="80" precision="80" tipo="TIERRA">Desenrollar
+			</Ataque>
+			<Ataque poder="90" precision="70" tipo="FUEGO">Rueda Fuego
+			</Ataque>
+			<Ataque poder="50" precision="70" tipo="FUEGO">Nitrocarga
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	
+
+</ListaPokemon>

@@ -1,0 +1,17 @@
+.root {
+    -fx-background-image:url('../images/Campo_de_batalla.png');
+    -fx-background-size:100% 100%;
+}
+.slider{
+	-fx-pref-width:100px;
+}
+.slider .track{
+	-fx-background-color:red;
+	-fx-pref-height:20px;
+	-fx-background-radius:0;
+}
+.slider .thumb{
+	-fx-pref-height:20px;
+	-fx-pref-width:5px;
+	-fx-background-radius:0;
+}
