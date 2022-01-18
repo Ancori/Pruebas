@@ -28,7 +28,7 @@ public class Combate {
 			entrenador1.get().add(i, listPokemon.get(pk));
 			pk++;
 		}
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 6; i++) {
 			entrenador2.add(i, listPokemon.get(pk));
 			pk++;
 		}
@@ -51,6 +51,7 @@ public class Combate {
 		int valorDado = (int) Math.floor(Math.random() * 4);
 		Ataque ataque = pok.getAtaques().get(valorDado);
 		ataque(ataque, pok);
+	
 
 	}
 
@@ -108,5 +109,8 @@ public class Combate {
 	public void setEntrenador2(final ObservableList<Pokemon> entrenador2) {
 		this.entrenador2Property().set(entrenador2);
 	}
+
+	
+	
 
 }

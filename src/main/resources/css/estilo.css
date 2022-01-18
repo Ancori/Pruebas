@@ -1,4 +1,4 @@
-.root {
+#view {
     -fx-background-image:url('../images/Campo_de_batalla.png');
     -fx-background-size:100.0% 100.0%;
 }
@@ -27,6 +27,10 @@
 	-fx-border-color:black;
 }
 .combo-box-base{
-    -fx-background-color: #0FF;
+    -fx-background-color:#CD853F;
     -fx-padding: 2 2;
+}
+#mensajeataqueLabel{
+	-fx-background-color:black;
+	-fx-border-color:#CD853F;
 }

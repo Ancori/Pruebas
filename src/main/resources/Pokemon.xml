@@ -2,7 +2,7 @@
 <ListaPokemon>
 	<Pokemon nombre="Pikachu" nivel="50" tipo="ELECTRICO">
 		<Ataques>
-			<Ataque poder="40" precision="70" tipo="ELECTRICO">Impactrueno
+			<Ataque poder="80" precision="70" tipo="ELECTRICO">Impactrueno
 			</Ataque>
 			<Ataque poder="80" precision="55" tipo="NORMAL">Atizar
 			</Ataque>
@@ -20,7 +20,7 @@
 			</Ataque>
 			<Ataque poder="60" precision="70" tipo="SINIESTRO">Mordisco
 			</Ataque>
-			<Ataque poder="60" precision="75" tipo="DRAGON">Cola dragón
+			<Ataque poder="100" precision="50" tipo="DRAGON">Cola dragón
 			</Ataque>
 		</Ataques>
 	</Pokemon>
@@ -32,7 +32,7 @@
 			</Ataque>
 			<Ataque poder="80" precision="70" tipo="PSIQUICO">Cabezazo Zen
 			</Ataque>
-			<Ataque poder="95" precision="70" tipo="SINIESTRO">Juego Sucio
+			<Ataque poder="85" precision="70" tipo="SINIESTRO">Juego Sucio
 			</Ataque>
 		</Ataques>
 	</Pokemon>
@@ -84,6 +84,65 @@
 			</Ataque>
 		</Ataques>
 	</Pokemon>
-	
+	<Pokemon nombre="Chikorita" nivel="50" tipo="PLANTA">
+		<Ataques>
+			<Ataque poder="60" precision="65" tipo="PLANTA">Hoja Afilada
+			</Ataque>
+			<Ataque poder="75" precision="70" tipo="PLANTA">Bomba Germen
+			</Ataque>
+			<Ataque poder="85" precision="75" tipo="PLANTA">Recurrente
+			</Ataque>
+			<Ataque poder="50" precision="70" tipo="ROCA">Poder Pasado
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Totodile" nivel="50" tipo="AGUA">
+		<Ataques>
+			<Ataque poder="60" precision="65" tipo="ACERO">Garra letal
+			</Ataque>
+			<Ataque poder="70" precision="75" tipo="AGUA">Buceo
+			</Ataque>
+			<Ataque poder="80" precision="70" tipo="SINIESTRO">Lanzamiento
+			</Ataque>
+			<Ataque poder="60" precision="60" tipo="ROCA">Tumba Rocas
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Treecko" nivel="50" tipo="PLANTA">
+		<Ataques>
+			<Ataque poder="60" precision="75" tipo="VOLADOR">Acrobata
+			</Ataque>
+			<Ataque poder="50" precision="85" tipo="VOLADOR">Golpe Aéreo
+			</Ataque>
+			<Ataque poder="60" precision="80" tipo="BICHO">Corte Furia
+			</Ataque>
+			<Ataque poder="60" precision="70" tipo="SINIESTRO">Triturar
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Torchic" nivel="50" tipo="FUEGO">
+		<Ataques>
+			<Ataque poder="70" precision="65" tipo="LUCHA">Movimiento Sísmico
+			</Ataque>
+			<Ataque poder="60" precision="85" tipo="FANTASMA">Garra Umbría
+			</Ataque>
+			<Ataque poder="90" precision="60" tipo="SINIESTRO">Tajo Umbrío
+			</Ataque>
+			<Ataque poder="100" precision="50" tipo="NORMAL">Rapidez
+			</Ataque>
+		</Ataques>
+	</Pokemon>
+	<Pokemon nombre="Mudkip" nivel="50" tipo="AGUA">
+		<Ataques>
+			<Ataque poder="60" precision="65" tipo="HIELO">Alud
+			</Ataque>
+			<Ataque poder="70" precision="75" tipo="AGUA">Surf
+			</Ataque>
+			<Ataque poder="80" precision="70" tipo="PSIQUICO">Manto espejo
+			</Ataque>
+			<Ataque poder="60" precision="60" tipo="VENENO">Tóxico
+			</Ataque>
+		</Ataques>
+	</Pokemon>
 
 </ListaPokemon>
